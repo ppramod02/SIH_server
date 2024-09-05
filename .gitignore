@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Install packages
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+Lib/
+Scripts/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Pyre type checker
+.pyre/
+
+# Mypy
+.mypy_cache/
+
+# Logs and local files
+*.log
+*.sqlite3
+
+# FastAPI related
+*.env
+*.envrc
+
+# Django stuff (if using Django with FastAPI, which is uncommon)
+*.pot
+*.pyc
+db.sqlite3
+media/
+static/
+
+# Flask stuff (if using Flask, also uncommon with FastAPI)
+instance/
+.webassets-cache
+
+# Editor and IDE-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+
+# Docker
+docker-compose*.yml
+Dockerfile
